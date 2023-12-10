@@ -5,6 +5,9 @@ import Home from '../Pages/Home/Home';
 import Addjobs from '../Pages/Addjobs/Addjobs';
 import Mypost from '../Pages/Mypost/Mypost';
 import Mybids from '../Pages/Bids/Mybids';
+import Error from '../Pages/Error/Error';
+import Login from '../Pages/Login/Login';
+import Regester from '../Pages/Regester/Regester';
 
 
 const router = createBrowserRouter([
@@ -28,7 +31,7 @@ const router = createBrowserRouter([
         {
           path:'mybids',
           element:<Mybids />
-        }
+        },
     //     {
     //        path:'/catagoryjobs/:name',
     //        element:<CategoryJobs />,
@@ -44,30 +47,14 @@ const router = createBrowserRouter([
     //       element:<Privateroute><Mybids /></Privateroute>,
     //       // loader: ({params}) => fetch(`http://localhost:5000/cetagorys/${params.id}`)
     //     },
-    //     {
-    //       path:'/about',
-    //       element:<About />
-    //   },
-    //   {
-    //     path:'/company',
-    //     element:<Company />
-    //   },
-    //   {
-    //     path:'/mybids',
-    //     element:<MyBids />
-    //   },
-    //   {
-    //     path:'/addjobs',
-    //     element:<Addjobs />
-    //   },
-    //   {
-    //     path:'/login',
-    //     element:<Login />
-    //   },
-    //   {
-    //     path:'/regster',
-    //     element:<Regester />
-    //   },
+      {
+        path:'/login',
+        element:<Login />
+      },
+      {
+        path:'/regster',
+        element:<Regester />
+      },
       ]
     },
 ]);
