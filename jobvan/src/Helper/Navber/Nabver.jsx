@@ -14,10 +14,10 @@ const Navber = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/about">About</NavLink>
+        <NavLink to="/addjob">ADD JOBS</NavLink>
       </li>
       <li>
-        <NavLink to="/company">Company revew</NavLink>
+        <NavLink to="/mypost">My Post</NavLink>
       </li>
       <li>
         <NavLink to="/mybids">MyBids</NavLink>

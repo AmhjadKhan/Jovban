@@ -10,7 +10,7 @@ const Banner = () => {
           className="hero min-h-screen"
           style={{
             backgroundImage:
-              "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZHULD3zgZVqYtsiBmi37I_u2fMERPFoD0fA&usqp=CAU)",
+              "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNK3BAL4t0SYExWYzW1ffQKASMlA-KFkKQJsbXgicWXqNZ3r3Pmwcc2_J-7jBRsZxJ9xw&usqp=CAU)",
           }}
         >
           <div className="hero-content text-center bg-slate-500 text-neutral-content">
@@ -21,7 +21,7 @@ const Banner = () => {
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut
                 repudiandae et a id nisi.
               </p>
-              <Link to='/tranner'> 
+              <Link to='/addjobs'> 
               <button className="btn btn-primary">BOOK NOW</button>
               </Link>
             </div>
@@ -37,13 +37,13 @@ const Banner = () => {
         >
           <div className="hero-content text-center bg-slate-500 text-neutral-content">
             <div className="max-w-md">
-              z<h1 className="mb-5 text-5xl text-red-500 font-bold">Job Search</h1>
+              <h1 className="mb-5 text-5xl text-red-500 font-bold">Job Search</h1>
               <p className="mb-5 text-gray-400">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut
                 repudiandae et a id nisi.
               </p>
-              <Link to='/tranner'>
+              <Link to='/addjobs'>
                 <button className="btn btn-primary">Apply NOW</button>
               </Link>
             </div>
@@ -53,7 +53,7 @@ const Banner = () => {
           className="hero min-h-screen"
           style={{
             backgroundImage:
-              "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDDd-W7XZ22pY7jvQWH3PYcbJShUO7Y8iXA&usqp=CAU)",
+              "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuClrFYEDCczZ9FU5Mm3bzQtLBNrIH968N11erclvs7WRl8ncNVSAVwRqiyuAb_K8wSyU&usqp=CAU)",
           }}
         >
           <div className="hero-content text-center bg-slate-500 text-neutral-content">
@@ -64,7 +64,7 @@ const Banner = () => {
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut
                 repudiandae et a id nisi.
               </p>
-              <Link to='/tranner'>
+              <Link to='/addjobs'>
                 <button className="btn btn-primary">Apply NOW</button>
               </Link>
             </div>

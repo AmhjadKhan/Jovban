@@ -2,6 +2,9 @@ import { createBrowserRouter } from 'react-router-dom'
 import MainLayout from '../Mainlayout/MainLayout';
 import App from '../App';
 import Home from '../Pages/Home/Home';
+import Addjobs from '../Pages/Addjobs/Addjobs';
+import Mypost from '../Pages/Mypost/Mypost';
+import Mybids from '../Pages/Bids/Mybids';
 
 
 const router = createBrowserRouter([
@@ -14,6 +17,18 @@ const router = createBrowserRouter([
             path:'/',
             element:<Home />  
         },
+        {
+          path:'addjobs',
+          element:<Addjobs />
+        },
+        {
+          path:'mypost',
+          element:<Mypost />
+        },
+        {
+          path:'mybids',
+          element:<Mybids />
+        }
     //     {
     //        path:'/catagoryjobs/:name',
     //        element:<CategoryJobs />,
