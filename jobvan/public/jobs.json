@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Web Development",
+      "title":"Remote job",
+      "descraption":"adipisicing elit. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWMW4HOtdXh8zmaHJDQF-nNQvCghDsCoqx8ayM7gYYOPmlhC5qrDirjn8x6xmHW5f1bR8&usqp=CAU"
+    },
+    {
+      "id": 2,
+      "name": "Digital Marketing",
+      "title":"Remote job",
+      "descraption":"adipisicing elit. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLnVBaQBPHA8v4eD0aWWdDxICvI0Ea9hNCww&usqp=CAU"
+    },
+    {
+      "id": 3,
+      "name": "Graphics Design",
+      "title":"Remote job",
+      "descraption":"adipisicing elit. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxN9nbE7mtu6bN2QMKZW5ncv5F2nGnBGiAQw&usqp=CAU"
+    }
+  ]
+  
