@@ -1,6 +1,11 @@
-import React from 'react'
+import { useContext } from "react";
+import { Link } from "react-router-dom";
+import { AuthContex } from "../../Firebase/Provider/Authprovider";
 
 const Regester = () => {
+
+  const {creatrUser} = useContext(AuthContex)
+
     const handleRegister = e =>{
         e.preventDefault();
         const fromData = new FormData (e.currentTarget);
@@ -8,7 +13,17 @@ const Regester = () => {
         const photo = fromData.get('photo')
         const email = fromData.get('email')
         const password = fromData.get('password')
-    console.log(name, photo, email, password)
+    // console.log(name, photo, email, password)
+    creatrUser(email, password)
+    .then(result =>{
+      const user = result.user;
+      console.log(user)
+    })
+    .then(error =>{
+      console.error(error);
+    })
+
+
     }
   return (
     <div>
@@ -79,9 +94,9 @@ const Regester = () => {
             {/* <button onClick={handleGoogle} className="text-2xl bg-gray-300"><span className="text-blue-700">G</span><span className="text-yellow-700">oo</span><span className="text-blue-700">g</span> <span className="text-green-700">l</span> <span className="text-red-700">e</span></button> */}
             <p>
               you have account Please{" "}
-              {/* <Link className="text-primary" to="/login">
+              <Link className="text-primary" to="/login">
                 Log In
-              </Link> */}
+              </Link>
             </p>
           </div>
         </div>

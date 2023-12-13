@@ -1,12 +1,25 @@
-import React from 'react'
+import { useContext } from "react"
+import { Link } from "react-router-dom"
+import { AuthContex } from "../../Firebase/Provider/Authprovider"
 
 const Login = () => {
+
+  const {user,singIn} = useContext(AuthContex);
+
     const handleLogin = e =>{
         e.preventDefault()
         const formData = new FormData(e.currentTarget)
-        const email = formData.get('email');
-        const password = formData.get('password')
-        console.log(email, password)
+        const email = formData.get("email");
+        const password = formData.get("password");
+    
+        singIn(email, password)
+          .then((result) => {
+            console.log(result.user);
+          })
+          .catch((error) => {
+            console.log(error);
+          });
+
     }
   return (
     <div>
@@ -57,9 +70,9 @@ const Login = () => {
                 </button>
                 <p>
               No Account please{" "}
-              {/* <Link className="text-primary" to="/regster">
+              <Link className="text-primary" to="/regster">
                 REGISTER
-              </Link> */}
+              </Link>
             </p>
               </div>
             </div>

@@ -1,24 +1,167 @@
 [
-    {
-      "id": 1,
-      "name": "Web Development",
-      "title":"Remote job",
-      "descraption":"adipisicing elit. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWMW4HOtdXh8zmaHJDQF-nNQvCghDsCoqx8ayM7gYYOPmlhC5qrDirjn8x6xmHW5f1bR8&usqp=CAU"
-    },
-    {
-      "id": 2,
-      "name": "Digital Marketing",
-      "title":"Remote job",
-      "descraption":"adipisicing elit. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLnVBaQBPHA8v4eD0aWWdDxICvI0Ea9hNCww&usqp=CAU"
-    },
-    {
-      "id": 3,
-      "name": "Graphics Design",
-      "title":"Remote job",
-      "descraption":"adipisicing elit. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxN9nbE7mtu6bN2QMKZW5ncv5F2nGnBGiAQw&usqp=CAU"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "jobtitle": "Programming",
+    "Email": "andcr@Email.com",
+    "Deadline": "11-01-2024",
+    "category": "Web_Development",
+    "minimum_price": "60k-70k",
+    "maximum_price": "80k-101k",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWMW4HOtdXh8zmaHJDQF-nNQvCghDsCoqx8ayM7gYYOPmlhC5qrDirjn8x6xmHW5f1bR8&usqp=CAU"
+  },
+  {
+    "id": 2,
+    "jobtitle": "Marketing",
+    "Email": "marketing@email.com",
+    "Deadline": "15-01-2024",
+    "category": "Digital_Marketing",
+    "minimum_price": "50k-60k",
+    "maximum_price": "70k-90k",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLnVBaQBPHA8v4eD0aWWdDxICvI0Ea9hNCww&usqp=CAU"
+  },
+  {
+    "id": 3,
+    "jobtitle": "Designing",
+    "Email": "designer@email.com",
+    "Deadline": "20-01-2024",
+    "category": "Graphics_Design",
+    "minimum_price": "40k-50k",
+    "maximum_price": "60k-80k",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxN9nbE7mtu6bN2QMKZW5ncv5F2nGnBGiAQw&usqp=CAU"
+  },
+  {
+    "id": 4,
+    "jobtitle": "Programming",
+    "Email": "andkwcr@Email.com",
+    "Deadline": "11-01-2024",
+    "category": "Web_Development",
+    "minimum_price": "60k-70k",
+    "maximum_price": "80k-101k",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2x7oJNjniXyjJLgKCs0vxOEWburf99-i2ww&usqp=CAU"
+  },
+  {
+    "id": 5,
+    "jobtitle":"Marketing",
+    "Email": "marketing12@email.com",
+    "Deadline": "15-01-2024",
+    "category": "Digital_Marketing",
+    "minimum_price": "50k-60k",
+    "maximum_price": "70k-90k",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7ffpQKSx6NAzBbs8Let6rOlemA3Lgbjt3fA&usqp=CAU"
+  },
+  {
+    "id": 6,
+    "jobtitle": "Designing",
+    "Email": "designercc@email.com",
+    "Deadline": "20-01-2024",
+    "category": "Graphics_Design",
+    "minimum_price": "40k-50k",
+    "maximum_price": "60k-80k",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIfOitzPBylNbp5G-27fe_MKMLKZzf_oICOA&usqp=CAU"
+  },
+  {
+    "id": 7,
+    "jobtitle": "Programming",
+    "Email": "andcrrr@Email.com",
+    "Deadline": "11-01-2024",
+    "category": "Web_Development",
+    "minimum_price": "60k-70k",
+    "maximum_price": "80k-101k",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu8ekLos3RQNKc1r1xL9c3KWQL7d3UbEFUUA&usqp=CAU"
+  },
+  {
+    "id": 8,
+    "jobtitle": "Marketing",
+    "Email": "marketingss@email.com",
+    "Deadline": "15-01-2024",
+    "category": "Digital_Marketing",
+    "minimum_price": "50k-60k",
+    "maximum_price": "70k-90k",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBLH0O8OqSnn8YhJ1O6cKjqr7VzJap48glaw&usqp=CAU"
+  },
+  {
+    "id": 9,
+    "jobtitle": "Designing",
+    "Email": "designer@email.com",
+    "Deadline": "20-01-2024",
+    "category": "Graphics_Design",
+    "minimum_price": "40k-50k",
+    "maximum_price": "60k-80k",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC4-2NZ1zCTIcQMGd5jHITBHlqCCfV6DrHlg&usqp=CAU"
+  },
+  {
+    "id": 10,
+    "jobtitle": "Programming",
+    "Email": "andcr@Email.com",
+    "Deadline": "11-01-2024",
+    "category": "Web_Development",
+    "minimum_price": "60k-70k",
+    "maximum_price": "80k-101k",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH1_pVzlhEg2Lm9xKhtTHZ52kPfEzcdnJ-gQ&usqp=CAU"
+  },
+  {
+    "id": 11,
+    "jobtitle": "Marketing",
+    "Email": "marketing@email.com",
+    "Deadline": "15-01-2024",
+    "category": "Digital_Marketing",
+    "minimum_price": "50k-60k",
+    "maximum_price": "70k-90k",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThh5fRNcLpEohtUog6H9PrFrYRA0JSWmcKOA&usqp=CAU"
+  },
+  {
+    "id": 12,
+    "jobtitle": "Designing",
+    "Email": "designer@email.com",
+    "Deadline": "20-01-2024",
+    "category": "Graphics_Design",
+    "minimum_price": "40k-50k",
+    "maximum_price": "60k-80k",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwcVTS-HBOi_bkjR49uLkvyBlbAzu6C6vGLg&usqp=CAU"
+  },
+  {
+    "id": 13,
+    "jobtitle": "Programming",
+    "Email": "andcrssk@Email.com",
+    "Deadline": "11-01-2024",
+    "category": "Web_Development",
+    "minimum_price": "60k-70k",
+    "maximum_price": "80k-101k",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjaXUA0PjgWDHTfqkhkNplekwl2wlrTUVQ_w&usqp=CAU"
+  },
+  {
+    "id": 14,
+    "jobtitle": "Marketing",
+    "Email": "marketing@email.com",
+    "Deadline": "15-01-2024",
+    "category": "Digital_Marketing",
+    "minimum_price": "50k-60k",
+    "maximum_price": "70k-90k",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAakg2zY5foHEvScF3ezNvjw-dbnG9MJ4cuw&usqp=CAU"
+  },
+  {
+    "id": 15,
+    "jobtitle": "Designing",
+    "Email": "designer@email.com",
+    "Deadline": "20-01-2024",
+    "category": "Graphics_Design",
+    "minimum_price": "40k-50k",
+    "maximum_price": "60k-80k",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo. Iste tempora voluptate cum eos repellat voluptatem libero blanditiis explicabo dignissimos modi est doloribus quis quo ducimus, praesentium non laborum fugit laudantium, sint esse? Architecto officiis numquam neque perspiciatis, dolorem dignissimos quo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLT-uhLzmr9KkcyRgb1qTIBBXO7OZlzliPQA&usqp=CAU"
+  }
+]

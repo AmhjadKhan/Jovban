@@ -1,7 +1,7 @@
 import React from "react";
 
 const JobCard = ({ service }) => {
-  console.log(service);
+  // console.log(service);
   return (
     <div className="">
       <div className="hero bg-base-200">
