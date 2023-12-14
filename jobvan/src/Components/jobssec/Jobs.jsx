@@ -47,10 +47,18 @@ const Jobs = () => {
             </div>
           </TabPanel>
           <TabPanel>
-          <h2 className="text-3xl font-bold">Digital Marketing</h2>
+          <div className="grid md:grid-cols-3">
+              {
+                digitalMarket.map(service =><JobCard key={service.id} service={service} />) 
+              }
+            </div>
           </TabPanel>
           <TabPanel>
-          <h2 className="text-3xl font-bold">Grapics Design</h2>
+          <div className="grid md:grid-cols-3">
+              {
+                graficDesign.map(service =><JobCard key={service.id} service={service} />) 
+              }
+            </div>
           </TabPanel>
         </Tabs>
         </div>
