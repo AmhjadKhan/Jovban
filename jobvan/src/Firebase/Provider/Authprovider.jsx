@@ -35,11 +35,18 @@ const Authprovider = ({children}) => {
     return signInWithEmailAndPassword(auth,email,password)
    }
 
+   //  4.logout 
+ const logOutsec = () =>{
+  setloading(true)
+    return signOut(auth)
+ }
+
     const authInfo = {
         user,
         loading,
         creatrUser,
         singIn,
+        logOutsec
     }
 
   return (

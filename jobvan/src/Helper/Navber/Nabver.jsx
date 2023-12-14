@@ -1,13 +1,13 @@
-// import { useContext } from "react";
-import { NavLink } from "react-router-dom";
-// import { Link, NavLink } from "react-router-dom";
-// import { AuthContex } from "../../firebase/Authprovider";
+
+import { useContext } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { AuthContex } from "../../Firebase/Provider/Authprovider";
 
 const Navber = () => {
-//   const { user, logOutsec } = useContext(AuthContex);
-//   const handleLogout = () => {
-//     logOutsec().then().catch();
-//   };
+  const { user, logOutsec } = useContext(AuthContex);
+  const handleLogout = () => {
+    logOutsec().then().catch();
+  };
   const navitem = (
     <>
       <li>
@@ -32,7 +32,7 @@ const Navber = () => {
   );
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-blue-400 rounded-lg">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -71,13 +71,13 @@ const Navber = () => {
           <ul className="menu menu-horizontal px-1">{navitem}</ul>
         </div>
         <div className="navbar-end">
-          {/* {user ? (
+          {user ? (
             <button onClick={handleLogout} className="btn btn-primary">Log out</button>  
           ) : (
             <Link to='/login'>
                 <button className="btn btn-primary">Log in</button>
             </Link>
-          )} */}
+          )}
         </div>
       </div>
     </div>
