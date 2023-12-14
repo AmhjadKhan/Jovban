@@ -3,19 +3,23 @@ import React from "react";
 const JobCard = ({ service }) => {
   // console.log(service);
   return (
-    <div className="">
-      <div className="hero bg-base-200">
-        <div className="hero-content flex-col lg:flex-row">
+    <div>
+      <div className="card w-96 bg-base-100 shadow-xl">
+        <figure>
           <img
             src={service.image}
-            className="max-w-sm rounded-lg shadow-2xl"
+            alt="Shoes"
           />
-          <div>
-            <h1 className="text-5xl font-bold">{service.name}</h1>
-            <p className="py-6">
-             {service.descraption}
-            </p>
-            <button className="btn btn-primary">Go to jobs</button>
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">{service.jobtitle}</h2>
+         <div className="flex justify-between">
+         <p>{service.Deadline}</p>
+         <p>{service.minimum_price}</p>
+         </div>
+         <p>Moporem ipsum dolor sit amet consectetur adipisicing elit. Enim deleniti dicta illo, quod maiores hic sit delectus fugiat animi perspiciatis?</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-primary">BID NOW</button>
           </div>
         </div>
       </div>

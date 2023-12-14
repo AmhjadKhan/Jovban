@@ -1,6 +1,11 @@
 import React from 'react'
 
 const Addjobs = () => {
+  const categorys = [
+    {label:"Web_Development",value:1},
+    {label:"Digital_Marketing", value:2},
+    {label:"Graphics_Design",value:3}
+  ]
   const handleForm = e =>{
     e.preventDefault();
     const form = e.target;
@@ -13,7 +18,7 @@ const Addjobs = () => {
     const image = form.image.value;
     
       
-     const alljobs ={email,mimimumprice,maximumprice,jobtitle,descraption,image,Deadline}
+     const alljobs ={email,mimimumprice,categorys,maximumprice,jobtitle,descraption,image,Deadline}
      console.log(alljobs)
 
     //  send data to server 
@@ -49,8 +54,6 @@ const Addjobs = () => {
           />
         </label>
       </div>
-      
-
 
        {/* 2.this is jobtitle  */}
       <div className="form-control">
@@ -66,6 +69,21 @@ const Addjobs = () => {
           />
         </label>
       </div>
+      {/* add caregory  */}
+      <div className="form-control">
+  <label className="label">
+    <span className="label-text font-bold">Job category</span>
+  </label>
+  <label className="input-group">
+    <select className="input input-bordered w-full" name="category">
+      {categorys?.map(category => (
+        <option key={category.value} value={category.value}>
+          {category.label}
+        </option>
+      ))}
+    </select>
+  </label>
+</div>
       {/* 3.this is deadline date  */}
       <div className="form-control">
         <label className="label">
