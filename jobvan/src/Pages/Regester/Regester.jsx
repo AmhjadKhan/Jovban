@@ -26,7 +26,7 @@ const Regester = () => {
 
     }
   return (
-    <div>
+    <div className="mt-5">
         <div className="hero min-h-screen bg-blue-300">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left">

@@ -70,6 +70,10 @@ const Navber = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navitem}</ul>
         </div>
+        <div className="w-10 rounded-full ml-5">
+        <img alt="A" src={user.photoURL} />
+        </div>
+        <h1>{user.email}</h1>
         <div className="navbar-end">
           {user ? (
             <button onClick={handleLogout} className="btn btn-primary">Log out</button>  
