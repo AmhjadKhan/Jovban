@@ -4,9 +4,12 @@ import { Link, NavLink } from "react-router-dom";
 import { AuthContex } from "../../Firebase/Provider/Authprovider";
 
 const Navber = () => {
-  const { user, logOutsec } = useContext(AuthContex);
+  const { user, signOutee } = useContext(AuthContex);
+
   const handleLogout = () => {
-    logOutsec().then().catch();
+    signOutee()
+    .then()
+    .catch()
   };
   const navitem = (
     <>
@@ -71,9 +74,9 @@ const Navber = () => {
           <ul className="menu menu-horizontal px-1">{navitem}</ul>
         </div>
         <div className="w-10 rounded-full ml-5">
-        <img alt="A" src={user.photoURL} />
+        <img alt="A" src={user?.photoURL} />
         </div>
-        <h1>{user.email}</h1>
+        <h1>{user?.email}</h1>
         <div className="navbar-end">
           {user ? (
             <button onClick={handleLogout} className="btn btn-primary">Log out</button>  
