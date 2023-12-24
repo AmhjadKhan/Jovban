@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom"
 
 const JobCard = ({ service }) => {
   // console.log(service);
@@ -18,8 +18,10 @@ const JobCard = ({ service }) => {
          <p className="text-xl">price:{service.minimum_price}</p>
          </div>
          <p className="text-center">Moporem ipsum dolor sit amet consectetur adipisicing elit. Enim deleniti dicta illo, quod maiores hic sit delectus fugiat animi perspiciatis?</p>
-          <div className="card-actions justify-end">
+          <div className="card-actions justify-center">
+            <Link to={`/details/${service._id}`}>
             <button className="btn btn-primary">BID NOW</button>
+            </Link>
           </div>
         </div>
       </div>
