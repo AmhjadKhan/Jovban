@@ -1,19 +1,34 @@
-import React, { useContext, useEffect } from 'react';
-import { AuthContex } from '../../Firebase/Provider/Authprovider';
+import React, { useContext, useEffect, useState } from "react";
+import { AuthContex } from "../../Firebase/Provider/Authprovider";
+import Bidsrow from "./Bidsrow";
 
 const Mybids = () => {
   const { user } = useContext(AuthContex);
+  const [bids,setbids] = useState([])
 
-  const url = `http://localhost:5000/bids?bidemail=${user?.bidemail || ''}`;
+  const url = `http://localhost:5000/bids?bidemail=${user?.bidemail || ""}`;
 
   useEffect(() => {
     fetch(url)
-      .then(res => res.json())
-      .then(data => console.log(data))
-      .catch(error => console.error('Error fetching data:', error));
+      .then((res) => res.json())
+      .then((data) => setbids(data))
+      .catch((error) => console.error("Error fetching data:", error));
   }, [url]);
 
-  return <div>Mybids</div>;
-};
+  return (
+  <div className="mt-10 mb-5">
+     <div className="overflow-x-auto">
+  <table className="table">
+    <tbody>
+      <div>
+      {
+        bids.map(bids =><Bidsrow key={bids._id} bids={bids}/>)
+      }
+      </div>
+    </tbody> 
+  </table>
+</div>
+  </div>
+  )};
 
 export default Mybids;

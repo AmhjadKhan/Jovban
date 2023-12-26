@@ -9,6 +9,7 @@ import Error from "../Pages/Error/Error";
 import Login from "../Pages/Login/Login";
 import Regester from "../Pages/Regester/Regester";
 import Details from "../Components/Details/Details";
+import Privateroute from "./Privateroute";
 
 const router = createBrowserRouter([
   {
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
       },
       {
         path: "addjobs",
-        element: <Addjobs />,
+        element:<Privateroute> <Addjobs /> </Privateroute>,
       },
       {
         path: "mypost",
@@ -35,7 +36,7 @@ const router = createBrowserRouter([
       },
       {
         path: "mybids",
-        element: <Mybids />,
+        element:<Mybids /> ,
         
       },
       {
