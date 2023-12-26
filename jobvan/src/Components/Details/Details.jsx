@@ -25,7 +25,7 @@ const Details = () => {
     fetch('http://localhost:5000/bids',{
       method: 'POST',
       headers:{
-        'content-type': 'appliucation/json'
+        'content-type': 'application/json'
       },
       body: JSON.stringify(bidInfo)
     })

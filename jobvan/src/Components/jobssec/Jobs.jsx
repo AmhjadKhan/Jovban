@@ -42,21 +42,21 @@ const Jobs = () => {
           <TabPanel>
             <div className="grid md:grid-cols-3">
               {
-                webDevoleper.map(service =><JobCard key={service.id} service={service} />) 
+                webDevoleper.map(service =><JobCard key={service._id} service={service} />) 
               }
             </div>
           </TabPanel>
           <TabPanel>
           <div className="grid md:grid-cols-3">
               {
-                digitalMarket.map(service =><JobCard key={service.id} service={service} />) 
+                digitalMarket.map(service =><JobCard key={service._id} service={service} />) 
               }
             </div>
           </TabPanel>
           <TabPanel>
           <div className="grid md:grid-cols-3">
               {
-                graficDesign.map(service =><JobCard key={service.id} service={service} />) 
+                graficDesign.map(service =><JobCard key={service._id} service={service} />) 
               }
             </div>
           </TabPanel>

@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { useContext, useEffect } from 'react';
+import { AuthContex } from '../../Firebase/Provider/Authprovider';
 
 const Mybids = () => {
-  return (
-    <div>Mybids</div>
-  )
-}
+  const { user } = useContext(AuthContex);
 
-export default Mybids
+  const url = `http://localhost:5000/bids?bidemail=${user?.bidemail || ''}`;
+
+  useEffect(() => {
+    fetch(url)
+      .then(res => res.json())
+      .then(data => console.log(data))
+      .catch(error => console.error('Error fetching data:', error));
+  }, [url]);
+
+  return <div>Mybids</div>;
+};
+
+export default Mybids;
