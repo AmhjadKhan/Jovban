@@ -4,7 +4,7 @@ import { AuthContex } from "../../Firebase/Provider/Authprovider"
 
 const Login = () => {
 
-  const {user,singIn} = useContext(AuthContex);
+  const {user,singIn,handleGoogle} = useContext(AuthContex);
 
     const handleLogin = e =>{
         e.preventDefault()
@@ -65,7 +65,7 @@ const Login = () => {
                     <input className='btn btn-primary' type="submit" value='Login' />
                   </div>
                 </form>
-                <button className="bg-yellow-200 text-black">
+                <button onClick={handleGoogle} className="bg-yellow-200 text-black">
                    GOOGLE
                 </button>
                 <p>
@@ -75,6 +75,7 @@ const Login = () => {
               </Link>
             </p>
               </div>
+              
             </div>
           </div>
         </div>
