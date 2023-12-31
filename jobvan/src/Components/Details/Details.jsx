@@ -22,7 +22,7 @@ const Details = () => {
     }
     console.log(bidInfo)
 
-    fetch('http://localhost:5000/bids',{
+    fetch(' https://back-pevs19abz-amhjadkhans-projects.vercel.app/bids',{
       method: 'POST',
       headers:{
         'content-type': 'application/json'

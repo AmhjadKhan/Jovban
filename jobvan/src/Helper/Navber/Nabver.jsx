@@ -74,7 +74,7 @@ const Navber = () => {
           <ul className="menu menu-horizontal px-1">{navitem}</ul>
         </div>
         <div className="w-10 rounded-full ml-5">
-        <img alt="A" src={user?.photoURL} />
+        <img alt="" src={user?.photoURL} />
         </div>
         <h1>{user?.email}</h1>
         <div className="navbar-end">

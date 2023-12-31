@@ -24,11 +24,11 @@ const router = createBrowserRouter([
       {
         path:'details/:id',
         element:<Details />,
-        loader: ({params}) => fetch(`http://localhost:5000/jobs/${params.id}`)
+        loader: ({params}) => fetch(`https://back-phi-one.vercel.app/jobs/${params.id}`)
       },
       {
         path: "addjobs",
-        element:<Privateroute> <Addjobs /> </Privateroute>,
+        element: <Privateroute><Addjobs /></Privateroute> ,
       },
       {
         path: "mypost",
@@ -36,7 +36,7 @@ const router = createBrowserRouter([
       },
       {
         path: "mybids",
-        element:<Mybids /> ,
+        element:<Privateroute><Mybids /></Privateroute> ,
         
       },
       {

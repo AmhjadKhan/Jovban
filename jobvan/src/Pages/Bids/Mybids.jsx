@@ -6,7 +6,7 @@ const Mybids = () => {
   const { user } = useContext(AuthContex);
   const [bids,setbids] = useState([])
 
-  const url = `http://localhost:5000/bids?bidemail=${user?.bidemail || ""}`;
+  const url = `https://back-phi-one.vercel.app/bids?bidemail=${user?.bidemail || ""}`;
 
   useEffect(() => {
     fetch(url)
