@@ -1,3 +1,4 @@
+import Swal from 'sweetalert2'
 import { useContext } from "react";
 import { useLoaderData } from "react-router-dom";
 import { AuthContex } from "../../Firebase/Provider/Authprovider";
@@ -33,6 +34,13 @@ const Details = () => {
     .then(data =>{
       console.log(data)
     })
+    if(data.insertedId){
+      Swal.fire({
+        icon: "success",
+        title: "ADD to your bid",
+        text: "job addeded cart",
+      });
+    }
   }
 
   return (

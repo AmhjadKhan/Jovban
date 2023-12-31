@@ -27,3 +27,7 @@ const Mypost = () => {
 };
 
 export default Mypost;
+
+// 1.quary
+// 2.server email sure 
+// 3.
